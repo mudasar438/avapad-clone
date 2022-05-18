@@ -174,6 +174,7 @@ export default function Navbar() {
                </div>
 
              </div> */}
+            
             {[1, 2, 3, 4].map((value) => (
               <div className=" w-full md:w-[30%]  cardbg rounded-xl my-8 mx-3">
                 <div className="w-[90%] mx-auto">
@@ -182,6 +183,7 @@ export default function Navbar() {
                       Tire1
                     </h1>
                   </div>
+                  
                   <div className=" text-center borderbottom">
                     <p className="texthead  py-2text-xl">Staking Requirement</p>
                     <h1 className="textcolor py-2 text-4xl ">250,000</h1>
@@ -301,3 +303,5 @@ export default function Navbar() {
     </>
   );
 }
+ 
+//gakja fkljafgkldgja
